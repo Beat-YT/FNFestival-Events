@@ -2,22 +2,6 @@
 
 This is a brief documentation of the events in Fortnite Festival midis.
 
-## SECTION
-
-The section is an optional track that contains events identifying the [structure of the song](https://www.masterclass.com/articles/songwriting-101-learn-common-song-structures).
-
-- `[intro]`
-- `[verse]`
-- `[build]`
-- `[chorus]`
-- `[prechorus]`
-- `[breakdown]`
-- `[bridge]`
-- `[drop]`
-- `[solo_bass]`
-- `[solo_voice]`
-- `[solo_drums]`
-
 ## EVENTS
 
 Used to identify parts of the song:
@@ -52,3 +36,21 @@ Events that only apply to the lead instrument:
 Events that only apply to the drums instrument:
 
 - `[mix X drumsY]`: Change X and Y, e.g., `[mix 3 drums0d]`; Uncertain, but presumably assigns a key column to a drum instrument.
+
+
+## SECTION
+
+The section is an optional track that contains events identifying the [structure of the song](https://www.masterclass.com/articles/songwriting-101-learn-common-song-structures).
+It looks like this is not yet used by the game as of now.
+
+- `[intro]`
+- `[verse]`
+- `[build]`
+- `[chorus]`
+- `[prechorus]`
+- `[breakdown]`
+- `[bridge]`
+- `[drop]`
+- `[solo_bass]`
+- `[solo_voice]`
+- `[solo_drums]`
