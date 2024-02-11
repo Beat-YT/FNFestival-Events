@@ -24,7 +24,7 @@ Used to identify parts of the song:
 
 - `[music_start]`: Defines when the song should start.
 - `[music_end]`: Defines when the song should end.
-- `[preview]`: Sets the time that should be used in the song picker device.
+- `[preview]`: Unused tag, related to preview
 
 ## ALL PARTS
 
