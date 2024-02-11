@@ -1,10 +1,10 @@
 # Fortnite Festival Text Events
 
-This is a little documentation for the events in fortnite festival midis
+This is a brief documentation of the events in Fortnite Festival midis.
 
 ## SECTION
 
-Section is an optional track that only contains events that identifies the [structure of the song](https://www.masterclass.com/articles/songwriting-101-learn-common-song-structures)
+The section is an optional track that contains events identifying the [structure of the song](https://www.masterclass.com/articles/songwriting-101-learn-common-song-structures).
 
 - `[intro]`
 - `[verse]`
@@ -16,39 +16,39 @@ Section is an optional track that only contains events that identifies the [stru
 - `[drop]`
 - `[solo_bass]`
 - `[solo_voice]`
-- `[solo drums]`
-
+- `[solo_drums]`
 
 ## EVENTS
 
-Used to identify parts of the song
-- `[music_start]` Define when the song should start
-- `[music_end]` Define when the song should end
-- `[preview]` Set the time that should be used in the song picker device
+Used to identify parts of the song:
 
-# ALL PARTS
+- `[music_start]`: Defines when the song should start.
+- `[music_end]`: Defines when the song should end.
+- `[preview]`: Sets the time that should be used in the song picker device.
 
-Events that applies to a specific instrument
-- `[idle]` Set to to idle
-- `[idle_mellow]` Set to idle, but with mellow animation
-- `[idle_realtime]` To be determined
-- `[intense]` Set the player animation
-- `[mellow]` Set the player animation
-- `[play]` Not sure, my guess is that is resets to the default animations
+## ALL PARTS
 
+Events that apply to a specific instrument:
+
+- `[idle]`: Sets the instrument to idle.
+- `[idle_mellow]`: Sets the instrument to idle with a mellow animation.
+- `[idle_realtime]`: To be determined.
+- `[intense]`: Sets the player animation to intense.
+- `[mellow]`: Sets the player animation to mellow.
+- `[play]`: Uncertain, but presumably resets to default animations.
 
 ## GUITAR
 
-Events that only applies to the lead instrument
+Events that only apply to the lead instrument:
 
-- `[guitar]` change the LEAD instrument to a guitar
-- `[keytar]` change the LEAD instrument to a keyboard
-- `[map StrumMap_Default]` To be determined. Used for the plastic guitar
-- `[map HandMap_Default]` To be determined
-- `[map HandMap_Chord_X]` (Replace X with the Chord) To be determined
+- `[guitar]`: Changes the lead instrument to a guitar.
+- `[keytar]`: Changes the lead instrument to a keyboard.
+- `[map StrumMap_Default]`: To be determined. Used for the plastic guitar.
+- `[map HandMap_Default]`: To be determined.
+- `[map HandMap_Chord_X]` (Replace X with the chord): To be determined.
 
-# DRUMS
+## DRUMS
 
-Events that only applies to the drums instrument
-- `[mix X drumsY]` (change X and Y. e.g: [mix 3 drums0d])  Not sure, my guess is assign a key column to a drum instrument
+Events that only apply to the drums instrument:
 
+- `[mix X drumsY]` (Change X and Y, e.g., `[mix 3 drums0d]`): Uncertain, but presumably assigns a key column to a drum instrument.
