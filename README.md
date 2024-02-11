@@ -45,10 +45,10 @@ Events that only apply to the lead instrument:
 - `[keytar]`: Changes the lead instrument to a keyboard.
 - `[map StrumMap_Default]`: To be determined. Used for the plastic guitar.
 - `[map HandMap_Default]`: To be determined.
-- `[map HandMap_Chord_X]` (Replace X with the chord): To be determined.
+- `[map HandMap_Chord_X]`: Replace X with the chord; To be determined.
 
 ## DRUMS
 
 Events that only apply to the drums instrument:
 
-- `[mix X drumsY]` (Change X and Y, e.g., `[mix 3 drums0d]`): Uncertain, but presumably assigns a key column to a drum instrument.
+- `[mix X drumsY]`: Change X and Y, e.g., `[mix 3 drums0d]`; Uncertain, but presumably assigns a key column to a drum instrument.
