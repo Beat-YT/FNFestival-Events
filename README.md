@@ -6,8 +6,8 @@ This is a brief documentation of the events in Fortnite Festival midis.
 
 Used to identify parts of the song:
 
-- `[music_start]`: Defines when the song should start.
-- `[music_end]`: Defines when the song should end.
+- `[music_start]`: Defines when the song should start (quietens crowd).
+- `[music_end]`: Defines when the song should end (starts crowd cheering).
 - `[preview]`: Defines when the song preview starts (unused by client).
 - `[end]`: Defines when the song ends and the score screen should appear.
 
@@ -22,7 +22,7 @@ Events that apply to a specific instrument:
 - `[mellow]`: Sets the player animation to a slow, mellow performing animation.
 - `[play]`: Sets the player animation to the standard performing animation.
 - `[intense]`: Sets the player animation to an intense performing animation.
-- `PART_X`: Signals to the game which instrument the track is for (PART GUITAR, PART DRUMS, PART VOCALS, PART BASS).
+- `PART X`: Signals to the game which instrument the track is for (PART GUITAR, PART DRUMS, PART VOCALS, PART BASS).
 
 ## GUITAR
 
@@ -49,7 +49,7 @@ Events that only apply to the vocals instrument:
 ## SECTION
 
 The section is an optional track that contains events identifying the [structure of the song](https://www.masterclass.com/articles/songwriting-101-learn-common-song-structures).
-The game currently uses this information to direct where the camera will focus during the performance.
+The game currently uses some of these to direct where the camera will focus during the performance.
 
 - `[intro]`
 - `[verse]`
@@ -59,7 +59,8 @@ The game currently uses this information to direct where the camera will focus d
 - `[breakdown]`
 - `[bridge]`
 - `[drop]`
-- `[solo_bass]`
-- `[solo_voice]`
+- `[solo_guitar]`
 - `[solo_drums]`
+- `[solo_voice]`
+- `[solo_bass]`
 - `[outro]`
