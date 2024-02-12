@@ -6,42 +6,49 @@ This is a brief documentation of the events in Fortnite Festival midis.
 
 Used to identify parts of the song:
 
-- `[music_start]`: Defines when the song should start.
-- `[music_end]`: Defines when the song should end.
-- `[preview]`: Unused tag, related to preview
+- `[music_start]`: Defines when the song should start (quietens crowd).
+- `[music_end]`: Defines when the song should end (starts crowd cheering).
+- `[preview]`: Defines when the song preview starts (unused by client).
+- `[end]`: Defines when the song ends and the score screen should appear.
 
 ## ALL PARTS
 
 Events that apply to a specific instrument:
 
-- `[idle]`: Sets the instrument to idle.
-- `[idle_mellow]`: Sets the instrument to idle with a mellow animation.
-- `[idle_realtime]`: To be determined.
-- `[intense]`: Sets the player animation to intense.
-- `[mellow]`: Sets the player animation to mellow.
-- `[play]`: Uncertain, but presumably resets to default animations.
+- `[idle_realtime]`: Sets the player animation to idle (not in sync with the beat).
+- `[idle_mellow]`: Sets the player animation to a slow idle.
+- `[idle_intense]`: Sets the player animation to an intense idle.
+- `[idle]`: Sets the player animation to idle.
+- `[mellow]`: Sets the player animation to a slow, mellow performing animation.
+- `[play]`: Sets the player animation to the standard performing animation.
+- `[intense]`: Sets the player animation to an intense performing animation.
 
 ## GUITAR
 
 Events that only apply to the lead instrument:
 
 - `[guitar]`: Changes the lead instrument to a guitar.
-- `[keytar]`: Changes the lead instrument to a keyboard.
-- `[map StrumMap_Default]`: To be determined. Used for the plastic guitar.
-- `[map HandMap_Default]`: To be determined.
-- `[map HandMap_Chord_X]`: Replace X with the chord; To be determined.
+- `[keytar]`: Changes the lead instrument to a keytar.
+- `[map StrumMap_Default]`: Changes how the left hand animates to play notes.
+- `[map HandMap_Default]`: Changes how the right hand animates to play notes.
+- `[map HandMap_Chord_X]`: Moves the right hand to play the X chord.
 
 ## DRUMS
 
 Events that only apply to the drums instrument:
 
-- `[mix X drumsY]`: Change X and Y, e.g., `[mix 3 drums0d]`; Uncertain, but presumably assigns a key column to a drum instrument.
+- `[mix X drumsY]`: Change X and Y, e.g., `[mix 3 drums0d]`; Uncertain, but presumably assigns a lane to a drum instrument (for animating/audio muting).
 
+## VOCALS
+
+Events that only apply to the vocals instrument:
+
+- `[keytar]`: Changes the vocals instrument to a keytar.
 
 ## SECTION
 
 The section is an optional track that contains events identifying the [structure of the song](https://www.masterclass.com/articles/songwriting-101-learn-common-song-structures).
-It looks like this is not yet used by the game as of now.
+The game currently uses some of these to direct where the camera will focus during the performance.
 
 - `[intro]`
 - `[verse]`
@@ -51,6 +58,8 @@ It looks like this is not yet used by the game as of now.
 - `[breakdown]`
 - `[bridge]`
 - `[drop]`
-- `[solo_bass]`
-- `[solo_voice]`
+- `[solo_guitar]`
 - `[solo_drums]`
+- `[solo_voice]`
+- `[solo_bass]`
+- `[outro]`
