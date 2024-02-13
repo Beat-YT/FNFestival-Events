@@ -4,6 +4,8 @@ This is a brief documentation of the events in Fortnite Festival midis.
 
 ## EVENTS
 
+the events track must start with the text event `EVENTS`
+
 Used to identify parts of the song:
 
 - `[music_start]`: Defines when the song should start (quietens crowd).
@@ -12,6 +14,7 @@ Used to identify parts of the song:
 - `[end]`: Defines when the song ends and the score screen should appear.
 
 ## ALL PARTS
+A part track must start with the text event `PART X` (with X being the name of the instrument)
 
 Events that apply to a specific instrument:
 
@@ -25,6 +28,8 @@ Events that apply to a specific instrument:
 
 ## GUITAR
 
+The lead part must starts with the text event `PART GUITAR`
+
 Events that only apply to the lead instrument:
 
 - `[guitar]`: Changes the lead instrument to a guitar.
@@ -35,11 +40,15 @@ Events that only apply to the lead instrument:
 
 ## DRUMS
 
+The drums part must starts with the text event `PART DRUMS`
+
 Events that only apply to the drums instrument:
 
 - `[mix X drumsY]`: Change X and Y, e.g., `[mix 3 drums0d]`; Uncertain, but presumably assigns a lane to a drum instrument (for animating/audio muting).
 
 ## VOCALS
+
+The vocals part must starts with the text event `PART VOCALS`
 
 Events that only apply to the vocals instrument:
 
