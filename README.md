@@ -26,6 +26,7 @@ Events that apply to a specific instrument:
 - `[mellow]`: Sets the player animation to a slow, mellow performing animation.
 - `[play]`: Sets the player animation to the standard performing animation.
 - `[intense]`: Sets the player animation to an intense performing animation.
+- `[pickup]`: To be determined.
 
 ## GUITAR
 
