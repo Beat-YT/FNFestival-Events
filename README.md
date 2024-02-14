@@ -4,7 +4,7 @@ This is a brief documentation of the events in Fortnite Festival midis.
 
 ## EVENTS
 
-the events track must start with the text event `EVENTS`
+The events track must start with the text event `EVENTS`
 
 Used to identify parts of the song:
 
@@ -14,6 +14,7 @@ Used to identify parts of the song:
 - `[end]`: Defines when the song ends and the score screen should appear.
 
 ## ALL PARTS
+
 A part track must start with the text event `PART X` (with X being the name of the instrument)
 
 Events that apply to a specific instrument:
@@ -25,6 +26,7 @@ Events that apply to a specific instrument:
 - `[mellow]`: Sets the player animation to a slow, mellow performing animation.
 - `[play]`: Sets the player animation to the standard performing animation.
 - `[intense]`: Sets the player animation to an intense performing animation.
+- `[pickup]`: To be determined.
 
 ## GUITAR
 
@@ -56,8 +58,10 @@ Events that only apply to the vocals instrument:
 
 ## SECTION
 
+The section track must starts with the text event `SECTION`
+
 The section is an optional track that contains events identifying the [structure of the song](https://www.masterclass.com/articles/songwriting-101-learn-common-song-structures).
-The game currently uses some of these to direct where the camera will focus during the performance.
+The game currently uses some of these to direct where the camera will focus during the performance, to change the colour of the stage, and to trigger different visual effects (bubbles, fire, sparks, etc).
 
 - `[intro]`
 - `[verse]`
