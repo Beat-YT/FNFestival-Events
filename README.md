@@ -4,7 +4,7 @@ This is a brief documentation of the events in Fortnite Festival midis.
 
 ## EVENTS
 
-The events track must start with the text event `EVENTS`
+The events track must start with the text event (track name type) `EVENTS`
 
 Used to identify parts of the song:
 
@@ -15,7 +15,7 @@ Used to identify parts of the song:
 
 ## ALL PARTS
 
-A part track must start with the text event `PART X` (with X being the name of the instrument)
+A part track must start with the text event (track name type) `PART X` (with X being the name of the instrument)
 
 Events that apply to a specific instrument:
 
@@ -30,7 +30,7 @@ Events that apply to a specific instrument:
 
 ## GUITAR
 
-The lead part must starts with the text event `PART GUITAR`
+The lead part must starts with the text event (track name type) `PART GUITAR`
 
 Events that only apply to the lead instrument:
 
@@ -42,7 +42,7 @@ Events that only apply to the lead instrument:
 
 ## DRUMS
 
-The drums part must starts with the text event `PART DRUMS`
+The drums part must starts with the text event (track name type) `PART DRUMS`
 
 Events that only apply to the drums instrument:
 
@@ -50,7 +50,7 @@ Events that only apply to the drums instrument:
 
 ## VOCALS
 
-The vocals part must starts with the text event `PART VOCALS`
+The vocals part must starts with the text event (track name type) `PART VOCALS`
 
 Events that only apply to the vocals instrument:
 
@@ -58,7 +58,7 @@ Events that only apply to the vocals instrument:
 
 ## SECTION
 
-The section track must starts with the text event `SECTION`
+The section track must starts with the text event (track name type) `SECTION`
 
 The section is an optional track that contains events identifying the [structure of the song](https://www.masterclass.com/articles/songwriting-101-learn-common-song-structures).
 The game currently uses some of these to direct where the camera will focus during the performance, to change the colour of the stage, and to trigger different visual effects (bubbles, fire, sparks, etc).
